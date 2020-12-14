@@ -1,11 +1,14 @@
 import React from "react"
-import "./App.css"
+
+import Calc from "./Companints/Calculator/calculator.js"
+
+
 
 function App () {
 
   return (
 
-    <h1>Ishga tayyormiz brat.</h1>
+    <Calc x = {3} y = {2} />
 
   )
 
